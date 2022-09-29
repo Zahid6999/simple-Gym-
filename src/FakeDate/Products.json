@@ -1,0 +1,73 @@
+[
+    {
+      "id": "1",
+      "name": "Dumble",
+      "age": "20-25",
+      "time": 40,
+
+      "info": "Hold dumbbells in your hands with the palms facing each other. Pull your right hand toward your rib cage as you rotate to the right. Lower your hand and rotate to the other side. Alternate sides for 8 to 10 reps; complete 3 sets, resting rest 45 seconds between each set. Dumbbell Reverse Lunge With Forward Bend to Overhead Press",
+      
+      "img": "https://classroomclipart.com/images/gallery/Clipart/Sports/Weightlifting_Clipart/TN_man-wokring-out-with-dumbbell-weights-clipart.jpg"
+     
+    },
+    
+    {
+      "id": "2",
+      "name": "Burbell",
+      "age": "20-25",
+      "time": 35,
+
+      "info": "Hold Burbells in your hands with the palms facing each other. Pull your right hand toward your rib cage as you rotate to the right. Lower your hand and rotate to the other side. Alternate sides for 8 to 10 reps; complete 3 sets, resting rest 45 seconds between each set. Dumbbell Reverse Lunge With Forward Bend to Overhead Press",
+      
+      "img": "https://classroomclipart.com/images/gallery/Clipart/Sports/Weightlifting_Clipart/TN_man-lifting-weights-for-strength-training-workout-clipart.jpg"
+     
+    },
+    
+    
+    {
+      "id": "3",
+      "name": "Dumble Rack",
+      "age": "20-25",
+      "time": 70,
+
+      "info": "Hold Dumbel-Set in your hands with the palms facing each other. Pull your right hand toward your rib cage as you rotate to the right. Lower your hand and rotate to the other side. Alternate sides for 8 to 10 reps; complete 3 sets, resting rest 45 seconds between each set. Dumbbell Reverse Lunge With Forward Bend to Overhead Press",
+      
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP6wzysplPmpgMVFyz77s6YRiwUnupQJzoKw&usqp=CAU"
+     
+    },
+    {
+      "id": "4",
+      "name": "Render Dumbell",
+      "age": "15-40",
+      "time": 20,
+
+      "info": "Acute Effects of Two Types of Dumbbell Exercise on Oxygenated Hemodynamic Concentration of Cerebral Activation in Healthy Young Male Adults: A Functional Near-Infrared Spectroscopy Study",
+      
+      "img": "https://img.freepik.com/free-photo/3d-render-dumbbells-set-realistic-detailed-close-up-view-isolated-sport-element-fitness-dumbbell-design_460848-10403.jpg?t=st=1664428056~exp=1664428656~hmac=f12e016d761541b15e55462e96fce12e4a5118603fbd1f530d8fd70e807e1a7d"
+     
+    },
+    
+    {
+      "id": "5",
+      "name": "Abs Workout",
+      "age": "15-40",
+      "time": 50,
+
+      "info": "A big misconception about training your abs is that it demands tons of time. The truth? You can effectively target your core by doing a bodyweight abs workout just a few times a week.",
+      
+      "img": "https://www.muscleandfitness.com/wp-content/uploads/2017/07/1109-ryan-terry-weighted-crunch-abs.jpg?quality=86&strip=all"
+     
+    },
+    {
+      "id": "6",
+      "name": "Legs Press",
+      "age": "22-40",
+      "time": 38,
+
+      "info": "The leg press, a type of resistance training exercise, is an excellent way to strengthen your legs. It's done by pushing your legs against weights on a leg press machine. Like all strength training exercises, leg presses build muscle, reduce the risk of injury, and counteract age-related muscle loss",
+      
+      "img": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/embedded/29982/legs-9Ogkjf.jpg?resize=480:*"
+     
+    }
+    
+]
