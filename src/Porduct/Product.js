@@ -9,7 +9,7 @@ const Product = (props) => {
 
             {/* Cart perent div */}
             <div>
-              <div className="card w-96 lg:w-2/3   bg-base-100 shadow-2xl">
+              <div className="card w-96 lg:w-auto bg-base-100 shadow-2xl">
                 <figure className="px-4 pt-4 ">
                   <img src={img} alt="gym" className="rounded-xl h-56" />
                 </figure>

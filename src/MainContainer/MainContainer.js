@@ -43,7 +43,7 @@ const MainContainer = () => {
         <div className='main-container'>
 
             {/*----------- Gym content----------- */}
-           <div className="gym-content grid grid-flow-col-1 gap-9 lg:grid lg:grid-cols-3  gap-10 lg:ml-40 lg:mt-11">
+           <div className="gym-content grid grid-flow-col-1 gap-9 lg:grid lg:grid-cols-3  gap-10 lg:ml-20 lg:mt-11">
               
               {
                 gymPorducts.map((gymItem) => <Product
@@ -55,7 +55,7 @@ const MainContainer = () => {
            </div>
 
             {/*-------- Cart content ---------*/}
-           <div className="cart-content bg-gray-200 text-center pt-9 rounded-lg lg:mr-10 ">
+           <div className="cart-content bg-gray-200 text-center pt-9 rounded-lg lg:mr-5 ">
             <h1 className='text-2xl lg:text-3xl font-bold'>Zahid Hasan</h1>
             <p><small className=' text-lg lg:text-lg'>Ghatail, Tangail</small></p>
             
@@ -79,7 +79,7 @@ const MainContainer = () => {
 
             <h1 className='py-9 text-xl lg:text-2xl font-semibold'>Add A Break </h1>
             <div className=' bg-white shadow-2xl m-5 p-3 rounded-xl h-20 grid grid-cols-5 gap-4 items-center'>
-                <h4 className='rounded-full bg-slate-200 h-14 pt-2 lg:text-2xl font-medium'>10</h4>
+                <button className='rounded-full bg-slate-200 h-14 pt-2 lg:text-2xl font-medium'>10s</button>
                 <button className='rounded-full bg-slate-200 h-14 pt-2 lg:text-2xl font-medium'>20S</button>
                 <button className='rounded-full bg-green-500 h-14 pt-2 lg:text-2xl font-medium'>30S</button>
                 <button className='rounded-full bg-slate-200 h-14 pt-2 lg:text-2xl font-medium'>40S</button>
