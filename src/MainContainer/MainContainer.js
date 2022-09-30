@@ -1,10 +1,15 @@
 import React, { useEffect, useState } from 'react';
+import { toast } from 'react-toastify';
 import Product from '../Porduct/Product';
 import './MainContainer.css'
+// import { ToastContainer, toast } from 'react';
+// import 'react-toastify/dist/ReactToastify.css';
 
 const MainContainer = () => {
   const [gymPorducts, setGymProducts] = useState([]);
-  const [time, setTime] = useState([])
+  const [time, setTime] = useState([]);
+  const [brack, setBrack] = useState('0')
+  
 
   useEffect(() =>{
     fetch('products.json')
@@ -17,10 +22,21 @@ const MainContainer = () => {
     console.log(gymItem);
     const newCart = [...time, gymItem];
     setTime(newCart);
-
-
   }
+
+
+  const AddToBreakHandler = (event) => {
+  console.log(event.target.value);
+  setBrack(event.target.value)
+  }
+
+  // Tosty ----------------------
+  const tostify = () => {
+    alert('Toast add korte parlam na')
+  }
+  
     return (
+
         <div>
        <h1 className='text-2xl ml-16 mb-7 lg:text-3xl lg:text-stone-900 lg:ml-44 mt-14'>Select today's Exercise </h1>
 
@@ -61,9 +77,9 @@ const MainContainer = () => {
             </div>
 
 
-            <h1 className='py-9 text-xl lg:text-2xl font-semibold'>Add A Break</h1>
+            <h1 className='py-9 text-xl lg:text-2xl font-semibold'>Add A Break </h1>
             <div className=' bg-white shadow-2xl m-5 p-3 rounded-xl h-20 grid grid-cols-5 gap-4 items-center'>
-                <button className='rounded-full bg-slate-200 h-14 pt-2 lg:text-2xl font-medium'>10S</button>
+                <h4 className='rounded-full bg-slate-200 h-14 pt-2 lg:text-2xl font-medium'>10</h4>
                 <button className='rounded-full bg-slate-200 h-14 pt-2 lg:text-2xl font-medium'>20S</button>
                 <button className='rounded-full bg-green-500 h-14 pt-2 lg:text-2xl font-medium'>30S</button>
                 <button className='rounded-full bg-slate-200 h-14 pt-2 lg:text-2xl font-medium'>40S</button>
@@ -83,10 +99,13 @@ const MainContainer = () => {
 
             <div className=' bg-white shadow-2xl m-5 rounded-xl h-20 grid grid-cols-2 gap-4 items-center lg:mt-20'>
                 <h3 className='text-2xl font-medium pl-2'>Break time</h3>
-                <p className='font-light text-lg lg:text-xl'>10 seconds</p>
+                <button value='10s' onClick={(e) => AddToBreakHandler(e)} className='font-light text-lg lg:text-xl'>{brack} seconds</button>
             </div>
 
-            <button className="btn btn-active btn-accent w-full lg:h-20 text-white py-5 lg:mt-20 lg:text-3xl">Activity Completed</button>
+            <div>
+            <button onClick={tostify} className="btn btn-active btn-accent w-full lg:h-20 text-white py-5 lg:mt-20 lg:text-3xl">Activity Completed</button>
+            {/* <ToastContainer /> */}
+            </div>
            </div>
 
  
