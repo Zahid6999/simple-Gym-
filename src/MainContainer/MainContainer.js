@@ -45,7 +45,7 @@ const MainContainer = () => {
         <div className='main-container'>
 
             {/*----------- Gym content----------- */}
-           <div className="gym-content grid grid-flow-col-1 gap-9 lg:grid lg:grid-cols-3  gap-10 lg:ml-20 lg:mt-11">
+           <div className="gym-content grid grid-flow-col-1 gap-9 lg:grid lg:grid-cols-3  gap-10  lg:mt-11">
               
               {
                 gymPorducts.map((gymItem) => <Product
@@ -57,7 +57,7 @@ const MainContainer = () => {
            </div>
 
             {/*-------- Cart content ---------*/}
-           <div className="cart-content bg-gray-200 text-center pt-9 rounded-lg lg:mr-5 ">
+           <div className="cart-content bg-gray-200 text-center pt-9 rounded-lg ">
             <h1 className='text-2xl lg:text-3xl font-bold'>Zahid Hasan</h1>
             <p><small className=' text-lg lg:text-lg'>Ghatail, Tangail</small></p>
             
