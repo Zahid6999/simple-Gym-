@@ -42,7 +42,7 @@ const MainContainer = () => {
         
         {/* ------------------Main contianer----------------- */}
 
-        <div className='main-container'>
+        <div className='main-container' style={{display:'flex'}}>
 
             {/*----------- Gym content----------- */}
            <div className="gym-content grid grid-flow-col-1 gap-9 lg:grid lg:grid-cols-3  gap-10  lg:mt-11">
