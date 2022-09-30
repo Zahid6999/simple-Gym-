@@ -32,13 +32,15 @@ const MainContainer = () => {
 
   // Tosty ----------------------
   const tostify = () => {
-    alert('Toast add korte parlam na')
+    alert('Toast add korte parlam na.. onek vabe try korchi')
   }
   
     return (
 
         <div>
        <h1 className='text-2xl ml-16 mb-7 lg:text-3xl lg:text-stone-900 lg:ml-44 mt-14'>Select today's Exercise </h1>
+        
+        {/* ------------------Main contianer----------------- */}
 
         <div className='main-container'>
 
@@ -61,7 +63,7 @@ const MainContainer = () => {
             
 
 
-            <div className=' bg-white shadow-2xl m-5 rounded-xl h-20 grid grid-cols-3 gap-4 items-center'>
+            <div className=' bg-white shadow-2xl m-3 rounded-xl h-20 grid grid-cols-3 gap-4 items-center'>
               <div>
               <h2 className='text-2xl font-semibold'>60 <small className='text-base  font-light '>kg</small></h2>
               <p className='font-bold fonlg:font-bold'>Weigth</p>
@@ -89,7 +91,7 @@ const MainContainer = () => {
 
             <h1 className='py-9 text-xl  lg:text-2xl font-semibold'>Exerise Details</h1>
 
-            <div className=' bg-white shadow-2xl m-5 rounded-xl h-20 grid grid-cols-2 gap-4 items-center'>
+            <div className=' bg-white shadow-2xl m-3 rounded-xl h-20 grid grid-cols-2 gap-4 items-center'>
                 <h3 className='text-2xl font-medium pl-2'>Exercise time</h3>
                 <p className='font-light text-xl'>{time.length} seconds</p>
             </div>
@@ -103,7 +105,7 @@ const MainContainer = () => {
             </div>
 
             <div>
-            <button onClick={tostify} className="btn btn-active btn-accent w-full lg:h-20 text-white py-5 lg:mt-20 lg:text-3xl">Activity Completed</button>
+            <button onClick={tostify} className="btn btn-active btn-accent w-full lg:h-20 text-white py-5 lg:mt-20 lg:text-2xl">Activity Completed</button>
             {/* <ToastContainer /> */}
             </div>
            </div>

@@ -14,7 +14,7 @@ const Product = (props) => {
                   <img src={img} alt="gym" className="rounded-xl h-56" />
                 </figure>
               <div className="card-body ">
-                <h2 className=" text-2xl lg:text-3xl ml-0 lg:font-bold">{name}</h2>
+                <h2 className=" text-2xl lg:text-3xl lg:font-bold">{name}</h2>
                 <p className='text-base lg:text-xl'>{info}</p>
                 <h5 className='lg:text-xl font-bold lg:font-bold'>For Age: {age}</h5>
                 <h5 className='text-lg lg:text-xl font-bold lg:font-bold'>Time required: {time}</h5>
