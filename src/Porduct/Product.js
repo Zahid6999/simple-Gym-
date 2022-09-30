@@ -3,6 +3,7 @@ import React from 'react';
 const Product = (props) => {
     // console.log(props);
     const {name, age, time, info, img} = props.gymItem ;
+    
     return (
         <div>
 
@@ -18,7 +19,7 @@ const Product = (props) => {
                 <h5 className='text-lg font-medium'>For Age: {age}</h5>
                 <h5 className='text-lg font-medium'>Time required: {time}</h5>
               <div className="card-actions">
-                <button  className="btn btn-primary w-full">Add To list</button>
+                <button onClick={ () => props.AddToCartHandler(props.gymItem)} className="btn btn-success w-full">Add To list</button>
               </div>
                </div>
         </div>
